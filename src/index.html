@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio Casulo</title>
+  <base href="/">
+
+	<meta name="description" content="Criado inicialmente para disseminar a cultura ágil. O grupo Casulo tornou-se um meio de transformação interdisciplinar ajudando o aluno na sua formação. Sempre com assuntos pertinentes ao Desenvolvimento de software e os frameworks ágeis, como o SCRUM.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Portfolio Casulo Evolução">
+  <meta property="og:description" content="Esse é o nosso Portfolio Criado para mostrar Nossos Trabalhos">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/icon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/assets/icon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/icon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <app-root></app-root>
+</body>
+<script>
+	var revapi;
+	jQuery(document).ready(function() {		
+		revapi = jQuery("#rev_slider").revolution({
+			sliderType:"standard",
+			sliderLayout:"auto",
+			fullScreenOffsetContainer:".header",
+
+  		fullScreenOffset:"50px",
+			delay:5000,
+			navigation: {
+				arrows:{enable:true}				
+			},			
+			responsiveLevels: [1240, 1024, 778, 480],
+          visibilityLevels: [1240, 1024, 778, 480],
+           gridwidth: [1240, 1024, 778, 480],
+           gridheight: [620, 520, 580, 480],
+		   
+		});		
+	});	/*ready*/
+</script>
+
+</html>
